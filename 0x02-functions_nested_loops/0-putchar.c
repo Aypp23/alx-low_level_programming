@@ -10,7 +10,7 @@ int main(void)
 {
 char putchar[] = "_putchar";
 int msg;
-for (msg = 0; msg <= 8; msg++)
+for (msg = 0; msg <= 7; msg++)
 {
 _putchar(putchar[msg]);
 }
