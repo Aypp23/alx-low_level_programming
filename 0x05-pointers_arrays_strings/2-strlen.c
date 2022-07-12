@@ -8,11 +8,11 @@
  */
 int _strlen(char *s)
 {
-int count = 0;
-while (*s != ‘\0’)
+int large = 0;
+
+while (*(s + large) != '\0')
 {
-count++;
-s++;
+large++;
 }
-return (count);
+return (large);
 }
