@@ -1,8 +1,4 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
-
-
-
-#define ABS(x) ((x) < 0 ? (-x) : (x))
-
+#ifndef HAVE_ABS
+#define HAVE_ABS
+#define ABS(x) (((x) < 0) ? (-(x)) : (x))
 #endif
